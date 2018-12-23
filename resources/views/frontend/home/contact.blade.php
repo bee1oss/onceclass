@@ -99,7 +99,7 @@
 
 @push("customJs")
 
-    <script src="{{asset("https://maps.googleapis.com/maps/api/js")}}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
 @endpush
 
 @push("customCss")

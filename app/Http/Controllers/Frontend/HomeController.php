@@ -26,4 +26,8 @@ class HomeController extends Controller
         return view("frontend.home.contact");
     }
 
+    public function single()
+    {
+        return view("frontend.home.single-audio");
+    }
 }

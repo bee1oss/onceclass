@@ -10,6 +10,6 @@ Route::group(["as"=>"Frontend", "namespace" => "Frontend"],function (){
     Route::get("/cate","HomeController@cate")->name(".cate");
     Route::get("/about","HomeController@about")->name(".about");
     Route::get("/contact","HomeController@contact")->name(".contact");
-
+    Route::get("/audio","HomeController@single")->name(".single");
 
 });
