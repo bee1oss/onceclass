@@ -26,8 +26,12 @@ class HomeController extends Controller
         return view("frontend.home.contact");
     }
 
-    public function single()
+    public function audio()
     {
         return view("frontend.home.single-audio");
+    }
+    public function standart()
+    {
+        return view("frontend.home.single-standart");
     }
 }
