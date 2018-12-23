@@ -20,9 +20,10 @@ class HomeController extends Controller
     {
         return view("frontend.home.page-about");
     }
-    public function login()
+
+    public function contact()
     {
-        return view("frontend.home.login");
+        return view("frontend.home.contact");
     }
 
 }

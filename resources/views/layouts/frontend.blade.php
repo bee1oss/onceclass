@@ -4,7 +4,7 @@
         <!--- basic page needs
         ================================================== -->
         <meta charset="utf-8">
-        <title>@yield("title","Blog Script")</title>
+        <title>@yield("title","Once")</title>
         <meta name="description" content="">
         <meta name="author" content="">
 
@@ -25,8 +25,8 @@
 
         <!-- favicons
         ================================================== -->
-        <link rel="shortcut icon" href="{{asset("assets/frontend/images/favicon.ico")}}" type="image/x-icon">
-        <link rel="icon" href="{{asset("assets/frontend/images/favicon.ico")}}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{asset("assets/frontend/images/thumbs/favicon.png")}}" type="image/x-icon">
+        <link rel="icon" href="{{asset("assets/frontend/images/thumbs/favicon.png")}}" type="image/x-icon">
 
     </head>
     <body id="top">
@@ -93,8 +93,8 @@
             </li>
             <li><a href="style-guide.html" title="">Styles</a></li>
             <li><a href="{{route("Frontend.about")}}" title="">About</a></li>
-            <li><a href="page-contact.html" title="">Contact</a></li>
-            <li><a href="{{route("Frontend.login")}}" title="">Sing in</a></li>
+            <li><a href="{{route("Frontend.contact")}}" title="">Contact</a></li>
+            <li><a href="" title="">Sing in</a></li>
         </ul> <!-- end header__nav -->
 
         <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
