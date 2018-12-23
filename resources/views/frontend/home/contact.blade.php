@@ -15,10 +15,10 @@
         <div class="row">
             <div class="col-full s-content__main">
                 <p>
-                    <img src="images/thumbs/contact/contact-1000.jpg"
-                         srcset="images/thumbs/contact/contact-2000.jpg 2000w,
-                             images/thumbs/contact/contact-1000.jpg 1000w,
-                             images/thumbs/contact/contact-500.jpg 500w"
+                    <img src="{{asset("assets/frontend/images/thumbs/contact/contact-1000.jpg")}}"
+                         srcset="{{asset("assets/frontend/images/thumbs/contact/contact-2000.jpg")}} 2000w,
+                             {{asset("assets/frontend/images/thumbs/contact/contact-1000.jpg")}} 1000w,
+                             {{asset("assets/frontend/images/thumbs/contact/contact-500.jpg")}} 500w"
                          sizes="(max-width: 2000px) 100vw, 2000px" alt="">
                 </p>
 
@@ -99,6 +99,7 @@
 
 @push("customJs")
 
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
 @endpush
 
 @push("customCss")
