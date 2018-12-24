@@ -46,7 +46,7 @@
 
     <div class="header__logo">
         <a class="logo" href="index.html">
-            <img src="{{asset("assets/frontend/images/logo.svg")}}" alt="Homepage">
+         {{--   <img src="{{asset("assets/frontend/images/logo.svg")}}" alt="Homepage">--}}
         </a>
     </div> <!-- end header__logo -->
 
@@ -86,12 +86,12 @@
             <li class="has-children">
                 <a href="#0" title="">Blog</a>
                 <ul class="sub-menu">
-                    <li><a href="single-video.html">Video Post</a></li>
+                    <li><a href="{{route("Frontend.video")}}">Video Post</a></li>
                     <li><a href="{{route("Frontend.audio")}}">Audio Post</a></li>
                     <li><a href="{{route("Frontend.standart")}}">Standard Post</a></li>
                 </ul>
             </li>
-            <li><a href="style-guide.html" title="">Styles</a></li>
+            <li><a href="{{route("Frontend.style")}}" title="">Styles</a></li>
             <li><a href="{{route("Frontend.about")}}" title="">About</a></li>
             <li><a href="{{route("Frontend.contact")}}" title="">Contact</a></li>
             <li><a href="" title="">Sing in</a></li>
@@ -275,7 +275,7 @@
             <div class="col-six">
                 <div class="s-footer__copyright">
                         <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<i class="fa fa-heart" aria-hidden="true"> | Begenç</i>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<i class="fa fa-heart" aria-hidden="true"> | Begenç HACİYEW | Berat CEYHAN</i>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </span>
                 </div>

@@ -34,4 +34,12 @@ class HomeController extends Controller
     {
         return view("frontend.home.single-standart");
     }
+    public function video()
+    {
+        return view("frontend.home.single-video");
+    }
+    public function style()
+    {
+        return view("frontend.home.style");
+    }
 }

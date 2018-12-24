@@ -57,8 +57,8 @@
                     <div class="col-six tab-full">
                         <h4>Contact Info</h4>
 
-                        <p>sayhello@wordsmith.com<br>
-                            info@wordsmith.com <br>
+                        <p>sayhello@gmail.com<br>
+                            info@gmail.com <br>
                             Phone: (+1) 123 456
                         </p>
 

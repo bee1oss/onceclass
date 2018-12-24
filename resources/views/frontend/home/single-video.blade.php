@@ -2,40 +2,36 @@
 @section("content")
     <section class="s-content s-content--top-padding s-content--narrow">
 
-        <article class="row entry format-standard">
+        <article class="row entry format-video">
 
             <div class="entry__media col-full">
-                <div class="entry__post-thumb">
-                    <img src="{{asset("assets/frontend/images/thumbs/single/standard/standard-1000.jpg")}}"
-                         srcset="{{asset("assets/frontend/images/thumbs/single/standard/standard-2000.jpg")}}" 2000w,
-                    {{asset("assets/frontend/images/thumbs/single/standard/standard-1000.jpg")}} 1000w,
-                    {{asset("assets/frontend/images/thumbs/single/standard/standard-500.jpg")}} 500w"
-            sizes="(max-width: 2000px) 100vw, 2000px" alt="">
-   </div>
-</div>
+                <div class="video-container">
+                    <iframe src="https://player.vimeo.com/video/117310401?color=01aef0&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
 
-<div class="entry__header col-full">
-   <h1 class="entry__header-title display-1">
-       This Is A Standard Format Post.
-   </h1>
-   <ul class="entry__header-meta">
-       <li class="date">June 15, 2018</li>
-       <li class="byline">
-           By
-           <a href="#0">Jonathan Doe</a>
-       </li>
-   </ul>
-</div>
+            <div class="entry__header col-full">
+                <h1 class="entry__header-title display-1">
+                    Hello Folks, This is a  Video Post.
+                </h1>
+                <ul class="entry__header-meta">
+                    <li class="date">June 15, 2018</li>
+                    <li class="byline">
+                        By
+                        <a href="#0">Jonathan Doe</a>
+                    </li>
+                </ul>
+            </div>
 
-<div class="col-full entry__main">
+            <div class="col-full entry__main">
 
-   <p class="lead drop-cap">Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint.</p>
+                <p class="lead drop-cap">Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint.</p>
 
-   <p>Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco ut dolore culpa occaecat ut laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.
-   </p>
+                <p>Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco ut dolore culpa occaecat ut laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.
+                </p>
 
-   <p>
-       <img src="{{asset("assets/frontend/images/wheel-1000.jpg")}}" srcset="{{asset("assets/frontend/images/wheel-2000.jpg")}}" 2000w, {{asset("assets/frontend/images/wheel-1000.jpg")}} 1000w, {{asset("assets/frontend/images/wheel-500.jpg")}} 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+                <p>
+                    <img src="images/wheel-1000.jpg" srcset="images/wheel-2000.jpg 2000w, images/wheel-1000.jpg 1000w, images/wheel-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
                 </p>
 
                 <h2>Large Heading</h2>
@@ -98,6 +94,7 @@
                     </div> <!-- end entry__tags -->
                 </div> <!-- end s-content__taxonomies -->
 
+
                 <div class="entry__author">
                     <img src="images/avatars/user-03.jpg" alt="">
 
@@ -117,7 +114,7 @@
                     </div>
                 </div>
 
-            </div> <!-- s-entry__main -->
+            </div> <!-- entry__main -->
 
         </article> <!-- end entry/article -->
 
@@ -342,7 +339,7 @@
 
         </div> <!-- end comments-wrap -->
 
-    </section>
+    </section> <!-- end s-content -->
 @endsection
 
 @push("customJs")
