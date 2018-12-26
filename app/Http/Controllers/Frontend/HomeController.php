@@ -46,4 +46,8 @@ class HomeController extends Controller
     {
         return view("frontend.home.login");
     }
+    public function login_2()
+    {
+        return view("login.home.login");
+    }
 }

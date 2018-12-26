@@ -15,5 +15,6 @@ Route::group(["as"=>"Frontend", "namespace" => "Frontend"],function (){
     Route::get("/video","HomeController@video")->name(".video");
     Route::get("/style","HomeController@style")->name(".style");
     Route::get("/login","HomeController@login")->name(".login");
+    Route::get("/login_2","HomeController@login_2")->name(".login_2");
 
 });
