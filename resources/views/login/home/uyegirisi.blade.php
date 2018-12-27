@@ -1,3 +1,4 @@
+{{--
 @extends("layouts.login")
 @section("content")
     <form class="login100-form validate-form">
@@ -51,4 +52,4 @@
 
 @push("customCss")
 
-@endpush
+@endpush--}}

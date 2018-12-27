@@ -1,3 +1,4 @@
+{{--
 <!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>
@@ -53,4 +54,4 @@
         <script src="{{asset("assets/frontend/css/login/js/main.js")}}js/main.js"></script>
         @stack("customJs")
     </body>
-</html>
+</html>--}}

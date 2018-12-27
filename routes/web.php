@@ -10,6 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Auth::routes();
 include base_path("routes/frontend/routes.php");
 include base_path("routes/backend/routes.php");
+
+
+
+Route::get('/home', 'HomeController@index')->name('home');
