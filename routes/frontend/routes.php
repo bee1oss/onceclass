@@ -6,7 +6,8 @@
  * Time: 02:50
  */
 Route::group(["as"=>"Frontend", "namespace" => "Frontend"],function (){
-    Route::get("/","HomeController@index")->name(".index");
+    Route::get("/","HomeController@login")->name(".login");
+    Route::get("/","HomeController@login")->name(".login");
     Route::get("/cate","HomeController@cate")->name(".cate");
     Route::get("/about","HomeController@about")->name(".about");
     Route::get("/contact","HomeController@contact")->name(".contact");
@@ -14,7 +15,7 @@ Route::group(["as"=>"Frontend", "namespace" => "Frontend"],function (){
     Route::get("/standart","HomeController@standart")->name(".standart");
     Route::get("/video","HomeController@video")->name(".video");
     Route::get("/style","HomeController@style")->name(".style");
-    Route::get("/login","HomeController@login")->name(".login");
-    Route::get("/login_2","HomeController@login_2")->name(".login_2");
+    Route::get("/giris","HomeController@index")->name(".index");
+
 
 });

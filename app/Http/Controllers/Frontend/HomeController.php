@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {
+
     public function index()
     {
         return view("frontend.home.index");
@@ -44,10 +45,7 @@ class HomeController extends Controller
     }
     public function login()
     {
-        return view("frontend.home.login");
+        return view("login.home.uyegirisi");
     }
-    public function login_2()
-    {
-        return view("login.home.login");
-    }
+
 }
