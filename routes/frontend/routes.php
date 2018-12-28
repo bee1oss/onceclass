@@ -10,8 +10,7 @@ Route::get('/','Auth\LoginController@showLoginForm')->name('frontend.login');
 Route::post('/','Auth\LoginController@login');
 Route::get('logout','Auth\LoginController@logout')->name('frontend.logout');
 
-Route::group(["as"=>"Frontend", "namespace" => "Frontend"],function (){
-   
+Route::group(["as"=>"Frontend", "namespace" => "Frontend" , "middleware" => "auth"],function (){
     Route::get("/cate","HomeController@cate")->name(".cate");
     Route::get("/about","HomeController@about")->name(".about");
     Route::get("/contact","HomeController@contact")->name(".contact");
