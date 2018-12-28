@@ -1,4 +1,4 @@
-{{--
+
 <!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>
@@ -6,7 +6,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--===============================================================================================-->
-        <link rel="icon" type="image/png" href="{{asset("assets/frontend/images/thumbs/favicon.png")}}">
+        <link rel="shortcut icon" href="{{asset("assets/frontend/images/thumbs/icon.png")}}" type="image/x-icon">
+        <link rel="icon" href="{{asset("assets/frontend/images/thumbs/icon.png")}}" type="image/x-icon">
+
         <!--===============================================================================================-->
         <link rel="stylesheet" type="text/css" href="{{asset("assets/frontend/css/login/vendor/bootstrap/css/bootstrap.min.css")}}">
         <!--===============================================================================================-->
@@ -54,4 +56,4 @@
         <script src="{{asset("assets/frontend/css/login/js/main.js")}}js/main.js"></script>
         @stack("customJs")
     </body>
-</html>--}}
+</html>

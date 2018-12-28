@@ -11,9 +11,12 @@
 |
 */
 Auth::routes();
+Route::get('/home', function(){
+    return redirect(route("frontend.index"));
+})->name('home');
 include base_path("routes/frontend/routes.php");
 include base_path("routes/backend/routes.php");
 
 
 
-Route::get('/home', 'HomeController@index')->name('home');
+

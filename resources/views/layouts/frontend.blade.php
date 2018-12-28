@@ -26,8 +26,8 @@
 
         <!-- favicons
         ================================================== -->
-        <link rel="shortcut icon" href="{{asset("assets/frontend/images/thumbs/favicon.png")}}" type="image/x-icon">
-        <link rel="icon" href="{{asset("assets/frontend/images/thumbs/favicon.png")}}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{asset("assets/frontend/images/thumbs/icon.png")}}" type="image/x-icon">
+        <link rel="icon" href="{{asset("assets/frontend/images/thumbs/icon.png")}}" type="image/x-icon">
 
     </head>
     <body id="top">

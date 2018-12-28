@@ -43,9 +43,6 @@ class HomeController extends Controller
     {
         return view("frontend.home.style");
     }
-    public function login()
-    {
-        return view("login.home.uyegirisi");
-    }
+
 
 }

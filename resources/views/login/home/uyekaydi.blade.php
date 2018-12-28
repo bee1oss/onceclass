@@ -1,4 +1,4 @@
-{{--
+
 @extends("layouts.login")
 @section("content")
 
@@ -10,4 +10,4 @@
 
 @push("customCss")
 
-@endpush--}}
+@endpush
