@@ -95,6 +95,14 @@
             <li><a href="{{route("Frontend.style")}}" title="">Styles</a></li>
             <li><a href="{{route("Frontend.about")}}" title="">About</a></li>
             <li><a href="{{route("Frontend.contact")}}" title="">Contact</a></li>
+            <li class="has-children" >
+                <a href="#" title="">Profile</a>
+                <ul class="sub-menu">
+                    <li><a href="#"}>Profile Page</a></li>
+                    <li><a href="{{route("frontend.logout")}}">Log Out</a></li>
+
+                </ul>
+            </li>
 
         </ul> <!-- end header__nav -->
 
