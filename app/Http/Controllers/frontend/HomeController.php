@@ -14,13 +14,29 @@ class HomeController extends Controller
         return view("frontend.home.index");
     }
 
-    /*public function cate()
+    public function cate()
     {
         return view("frontend.home.category");
     }
     public function about()
     {
-        return view("frontend.home.page-about");
+        return view("frontend.home.about");
+    }
+    public function audio()
+    {
+        return view("frontend.home.single-audio");
+    }
+    public function video()
+    {
+        return view("frontend.home.single-video");
+    }
+    public function gallery()
+    {
+        return view("frontend.home.single-gallery");
+    }
+    public function standart()
+    {
+        return view("frontend.home.single-standart");
     }
 
     public function contact()
@@ -28,22 +44,14 @@ class HomeController extends Controller
         return view("frontend.home.contact");
     }
 
-    public function audio()
+   public function page_about()
     {
-        return view("frontend.home.single-audio");
-    }
-    public function standart()
-    {
-        return view("frontend.home.single-standart");
-    }
-    public function video()
-    {
-        return view("frontend.home.single-video");
+        return view("frontend.home.page_about");
     }
     public function style()
     {
         return view("frontend.home.style");
-    }*/
+    }
     
 
 

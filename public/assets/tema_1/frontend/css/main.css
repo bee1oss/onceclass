@@ -1747,7 +1747,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header {
    position: absolute;
-   text-align: center;
+   /*text-align: center;*/
    top: 30px;
    width: 100%;
 }

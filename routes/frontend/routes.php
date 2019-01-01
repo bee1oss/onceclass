@@ -17,9 +17,11 @@ Route::group(["as"=>"Frontend", "namespace" => "Frontend", "middleware" => "auth
     Route::get("/home"    , "HomeController@index")->name(".index");
     Route::get("/cate"    , "HomeController@cate")->name(".cate");
     Route::get("/about"   , "HomeController@about")->name(".about");
-    Route::get("/contact" , "HomeController@contact")->name(".contact");
     Route::get("/audio"   , "HomeController@audio")->name(".audio");
-    Route::get("/standart", "HomeController@standart")->name(".standart");
+    Route::get("/page-about"   , "HomeController@page_about")->name(".page_about");
     Route::get("/video"   , "HomeController@video")->name(".video");
+    Route::get("/gallery"   , "HomeController@gallery")->name(".gallery");
+    Route::get("/standart", "HomeController@standart")->name(".standart");
+    Route::get("/contact" , "HomeController@contact")->name(".contact");
     Route::get("/style"   , "HomeController@style")->name(".style");
 });

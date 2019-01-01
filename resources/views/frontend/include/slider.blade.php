@@ -1,4 +1,7 @@
-<div class="pageheader-content row">
+
+</header> <!-- header -->
+
+        <div class="pageheader-content row">
     <div class="col-full">
 
         <div class="featured">
@@ -75,3 +78,4 @@
 
     </div> <!-- end col-full -->
 </div> <!-- end pageheader-content row -->
+</section> <!-- end s-pageheader -->

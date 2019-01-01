@@ -86,35 +86,34 @@
                     <h2 class="header__nav-heading h6">Site Navigation</h2>
 
                     <ul class="header__nav">
-                        <li class="current"><a href="index.html" title="">Home</a></li>
-                        <li >
-                            <a href="#" title="">Categories</a>
+                        <li class="current"><a href="{{route("Frontend.index")}}" title="">Home</a></li>
+                        <li class="has-children">
+                            <a href="{{route("Frontend.cate")}}" title="">Categories</a>
                             <ul class="sub-menu">
-                                <li><a href="category.html">Lifestyle</a></li>
-                                <li><a href="category.html">Health</a></li>
-                                <li><a href="category.html">Family</a></li>
-                                <li><a href="category.html">Management</a></li>
-                                <li><a href="category.html">Travel</a></li>
-                                <li><a href="category.html">Work</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Lifestyle</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Health</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Family</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Management</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Travel</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Work</a></li>
                             </ul>
                         </li>
                         <li class="has-children">
                             <a href="#" title="">Blog</a>
                             <ul class="sub-menu">
-                                <li><a href="single-video.html">Video Post</a></li>
-                                <li><a href="single-audio.html">Audio Post</a></li>
-                                <li><a href="single-gallery.html">Gallery Post</a></li>
-                                <li><a href="single-standard.html">Standard Post</a></li>
+                                <li><a href="{{route("Frontend.video")}}">Video Post</a></li>
+                                <li><a href="{{route("Frontend.page_about")}}">Audio Post</a></li>
+                                <li><a href="{{route("Frontend.gallery")}}">Gallery Post</a></li>
+                                <li><a href="{{route("Frontend.standart")}}">Standard Post</a></li>
                             </ul>
                         </li>
-                        <li><a href="style-guide.html" title="">Styles</a></li>
-                        <li><a href="about.html" title="">About</a></li>
-                        <li><a href="contact.html" title="">Contact</a></li>
+                        <li><a href="{{route("Frontend.about")}}" title="">About</a></li>
+                        <li><a href="{{route("Frontend.contact")}}" title="">Contact</a></li>
                         <li class="has-children">
                                 <a href="#">Profile</a>
                             <ul>
                                 <li><a href="#">Profile Page</a></li>
-                                <li><a href="#">Settings</a></li>
+                                <li><a href="">Settings</a></li>
                                 <li><a href="{{route("frontend.logout")}}">Log out</a></li>
                             </ul>
                         </li>
@@ -123,12 +122,9 @@
                     <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
 
                 </nav> <!-- end header__nav-wrap -->
-
+            <br>
             </div> <!-- header-content -->
-    </header> <!-- header -->
-        @include("frontend.include.slider")
 
-</section> <!-- end s-pageheader -->
 
     @yield("content")
 <!-- s-content

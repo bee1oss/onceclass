@@ -1,10 +1,14 @@
 @extends("layouts.frontend")
 @section("content")
-    @include("frontend.include.slider")
-
-    <!-- s-content
-    ================================================== -->
     <section class="s-content">
+
+        <div class="row narrow">
+            <div class="col-full s-content__header" data-aos="fade-up">
+                <h1>Category: Lifestyle</h1>
+
+                <p class="lead">Dolor similique vitae. Exercitationem quidem occaecati iusto. Id non vitae enim quas error dolor maiores ut. Exercitationem earum ut repudiandae optio veritatis animi nulla qui dolores.</p>
+            </div>
+        </div>
 
         <div class="row masonry-wrap">
             <div class="masonry">
@@ -56,11 +60,11 @@
 
                 </article> <!-- end article -->
 
-                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                <article class="masonry__brick entry format-standard">
 
                     <div class="entry__thumb">
                         <a href="single-standard.html" class="entry__thumb-link">
-                            <img src="{{asset("assets/tem_1/frontend/images/thumbs/masonry/tulips-400.jpg")}}"
+                            <img src="{{asset("assets/tema_1/frontend/images/thumbs/masonry/tulips-400.jpg")}}"
                                  srcset="{{asset("assets/tema_1/frontend/images/thumbs/masonry/tulips-400.jpg")}} 1x, {{asset("assets/tema_1/frontend/images/thumbs/masonry/tulips-800.jpg")}} 2x" alt="">
                         </a>
                     </div>
@@ -193,15 +197,15 @@
                     <div class="entry__thumb slider">
                         <div class="slider__slides">
                             <div class="slider__slide">
-                                <img src="{{asset("assets/tema_2/frontend/images/thumbs/masonry/gallery/gallery-1-400.jpg")}}"
-                                     srcset="{{asset("assets/tema_2/frontend/images/thumbs/masonry/gallery/gallery-1-400.jpg")}} 1x, {{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-1-800.jpg")}} 2x" alt="">
+                                <img src="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-1-400.jpg")}}"
+                                     srcset="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-1-400.jpg")}} 1x, {{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-1-800.jpg")}} 2x" alt="">
                             </div>
                             <div class="slider__slide">
-                                <img src="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-2-400.jpg")}}"
+                                <img src="{{asset("assets/tema_1/frontend/")}}images/thumbs/masonry/gallery/gallery-2-400.jpg"
                                      srcset="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-2-400.jpg")}} 1x, {{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-2-800.jpg")}} 2x" alt="">
                             </div>
                             <div class="slider__slide">
-                                <img src="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-3-400.jpg")}}"
+                                <img src="{{asset("assets/tema_1/frontend/")}}images/thumbs/masonry/gallery/gallery-3-400.jpg"
                                      srcset="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-3-400.jpg")}} 1x, {{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-3-800.jpg")}} 2x" alt="">
                             </div>
                         </div>
@@ -433,11 +437,6 @@
         </div>
 
     </section> <!-- s-content -->
-
-
-    <!-- s-extra
-    ================================================== -->
-
 @endsection
 
 @push("customJs")
