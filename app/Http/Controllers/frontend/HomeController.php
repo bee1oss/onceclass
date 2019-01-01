@@ -13,7 +13,10 @@ class HomeController extends Controller
     {
         return view("frontend.home.index");
     }
-
+    public function cate()
+    {
+        return view("frontend.home.category");
+    }
     /*public function cate()
     {
         return view("frontend.home.category");

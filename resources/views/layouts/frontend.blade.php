@@ -90,12 +90,12 @@
                         <li >
                             <a href="#" title="">Categories</a>
                             <ul class="sub-menu">
-                                <li><a href="category.html">Lifestyle</a></li>
-                                <li><a href="category.html">Health</a></li>
-                                <li><a href="category.html">Family</a></li>
-                                <li><a href="category.html">Management</a></li>
-                                <li><a href="category.html">Travel</a></li>
-                                <li><a href="category.html">Work</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Life</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Health</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Family</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Management</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Travel</a></li>
+                                <li><a href="{{route("Frontend.cate")}}">Work</a></li>
                             </ul>
                         </li>
                         <li class="has-children">
