@@ -40,8 +40,13 @@
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
+<<<<<<< HEAD
                                 <a href="category.html">Design</a>
                                 <a href="category.html">Photography</a>
+=======
+                                <a href="{{route("Frontend.cate")}}">Design</a>
+                                <a href="{{route("Frontend.cate")}}">Photography</a>
+>>>>>>> 3dd20370ba4f788cf9a5cca7c2db9dfc44ba7591
                             </span>
                         </div>
                     </div>
@@ -201,11 +206,19 @@
                                      srcset="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-1-400.jpg")}} 1x, {{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-1-800.jpg")}} 2x" alt="">
                             </div>
                             <div class="slider__slide">
+<<<<<<< HEAD
                                 <img src="{{asset("assets/tema_1/frontend/")}}images/thumbs/masonry/gallery/gallery-2-400.jpg"
                                      srcset="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-2-400.jpg")}} 1x, {{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-2-800.jpg")}} 2x" alt="">
                             </div>
                             <div class="slider__slide">
                                 <img src="{{asset("assets/tema_1/frontend/")}}images/thumbs/masonry/gallery/gallery-3-400.jpg"
+=======
+                                <img src="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-2-400.jpg")}}"
+                                     srcset="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-2-400.jpg")}} 1x, {{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-2-800.jpg")}} 2x" alt="">
+                            </div>
+                            <div class="slider__slide">
+                                <img src="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-3-400.jpg")}}"
+>>>>>>> 3dd20370ba4f788cf9a5cca7c2db9dfc44ba7591
                                      srcset="{{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-3-400.jpg")}} 1x, {{asset("assets/tema_1/frontend/images/thumbs/masonry/gallery/gallery-3-800.jpg")}} 2x" alt="">
                             </div>
                         </div>
@@ -239,11 +252,19 @@
 
                     <div class="entry__thumb">
                         <a href="single-audio.html" class="entry__thumb-link">
+<<<<<<< HEAD
                             <img src="{{asset("assets/tema_1/frontend/images/thumbs/masonry/guitarman-400.jpg")}}"
                                  srcset="{{asset("assets/tema_1/frontend/images/thumbs/masonry/guitarman-400.jpg")}} 1x, {{asset("assets/tema_1/frontend/images/thumbs/masonry/guitarman-800.jpg")}} 2x" alt="">
                         </a>
                         <div class="audio-wrap">
                             <audio id="player" src="{{asset("assets/tema_1/frontend/media/AirReview-Landmarks-02-ChasingCorporate.mp3")}}" width="100%" height="42" controls="controls"></audio>
+=======
+                            <img src="{{asset("assets/tema_1/frontend/images/thumbs/masonry/guitarman-400.jpg")}}
+                                 srcset="{{asset("assets/tema_1/frontend/images/thumbs/masonry/guitarman-400.jpg")}} 1x, {{asset("assets/tema_1/frontend/images/thumbs/masonry/guitarman-800.jpg")}} 2x" alt="">
+                        </a>
+                        <div class="audio-wrap">
+                            <audio id="player" src="media/AirReview-Landmarks-02-ChasingCorporate.mp3" width="100%" height="42" controls="controls"></audio>
+>>>>>>> 3dd20370ba4f788cf9a5cca7c2db9dfc44ba7591
                         </div>
                     </div>
 
@@ -276,9 +297,13 @@
                     <div class="entry__thumb">
                         <div class="link-wrap">
                             <p>The Only Resource You Will Need To Start a Blog Using WordPress.</p>
+<<<<<<< HEAD
                             <cite>
                                 <a target="_blank" href="https://colorlib.com/">https://colorlib.com</a>
                             </cite>
+=======
+
+>>>>>>> 3dd20370ba4f788cf9a5cca7c2db9dfc44ba7591
                         </div>
                     </div>
 
@@ -445,4 +470,8 @@
 
 @push("customCss")
 
+<<<<<<< HEAD
 @endpush
+=======
+@endpush
+>>>>>>> 3dd20370ba4f788cf9a5cca7c2db9dfc44ba7591

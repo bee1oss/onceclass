@@ -90,7 +90,11 @@
                         <li class="has-children">
                             <a href="{{route("Frontend.cate")}}" title="">Categories</a>
                             <ul class="sub-menu">
+<<<<<<< HEAD
                                 <li><a href="{{route("Frontend.cate")}}">Lifestyle</a></li>
+=======
+                                <li><a href="{{route("Frontend.cate")}}">Life</a></li>
+>>>>>>> 3dd20370ba4f788cf9a5cca7c2db9dfc44ba7591
                                 <li><a href="{{route("Frontend.cate")}}">Health</a></li>
                                 <li><a href="{{route("Frontend.cate")}}">Family</a></li>
                                 <li><a href="{{route("Frontend.cate")}}">Management</a></li>
