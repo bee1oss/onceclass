@@ -13,19 +13,12 @@ class HomeController extends Controller
     {
         return view("frontend.home.index");
     }
-<<<<<<< HEAD
+    public function cate()
+    {
+        return view("frontend.home.category");
+    }
 
-    public function cate()
-=======
-    public function cate()
-    {
-        return view("frontend.home.category");
-    }
-    /*public function cate()
->>>>>>> 3dd20370ba4f788cf9a5cca7c2db9dfc44ba7591
-    {
-        return view("frontend.home.category");
-    }
+
     public function about()
     {
         return view("frontend.home.about");

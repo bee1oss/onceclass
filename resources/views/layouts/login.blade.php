@@ -6,8 +6,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--===============================================================================================-->
-        <link rel="shortcut icon" href="{{asset("assets/tema_1/frontend/login/images/thumbs/icon.png")}}" type="image/x-icon">
-        <link rel="icon" href="{{asset("assets/tema_1/frontend/login/images/thumbs/icon.png")}}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{asset("assets/tema_1/frontend/images/thumbs/icon.png")}}" type="image/x-icon">
+        <link rel="icon" href="{{asset("assets/tema_1/frontend/images/thumbs/icon.png")}}" type="image/x-icon">
 
         <!--===============================================================================================-->
         <link rel="stylesheet" type="text/css" href="{{asset("assets/tema_1/frontend/login/vendor/bootstrap/css/bootstrap.min.css")}}">

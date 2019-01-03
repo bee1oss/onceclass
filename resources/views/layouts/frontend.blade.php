@@ -43,11 +43,12 @@
 
                 <div class="header__logo">
                     <a class="logo" href="index.html">
-                        <img src="{{asset("assets/tema_1/frontend/images/logo.svg")}}" alt="Homepage">
+                       {{-- <img src="{{asset("assets/tema_1/frontend/images/logo.svg")}}" alt="Homepage">--}}
+                        <h1 style="color:white; font-size:50px">Once Class</h1>
                     </a>
                 </div> <!-- end header__logo -->
 
-                <ul class="header__social">
+                {{--<ul class="header__social">
                     <li>
                         <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     </li>
@@ -60,7 +61,7 @@
                     <li>
                         <a href="#0"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                     </li>
-                </ul> <!-- end header__social -->
+                </ul> <!-- end header__social -->--}}
 
                 <a class="header__search-trigger" href="#0"></a>
 
@@ -90,11 +91,10 @@
                         <li class="has-children">
                             <a href="{{route("Frontend.cate")}}" title="">Categories</a>
                             <ul class="sub-menu">
-<<<<<<< HEAD
+
                                 <li><a href="{{route("Frontend.cate")}}">Lifestyle</a></li>
-=======
+
                                 <li><a href="{{route("Frontend.cate")}}">Life</a></li>
->>>>>>> 3dd20370ba4f788cf9a5cca7c2db9dfc44ba7591
                                 <li><a href="{{route("Frontend.cate")}}">Health</a></li>
                                 <li><a href="{{route("Frontend.cate")}}">Family</a></li>
                                 <li><a href="{{route("Frontend.cate")}}">Management</a></li>
@@ -128,7 +128,6 @@
                 </nav> <!-- end header__nav-wrap -->
             <br>
             </div> <!-- header-content -->
-
 
     @yield("content")
 <!-- s-content
@@ -371,7 +370,7 @@
 <script src="{{asset("assets/tema_1/frontend/js/jquery-3.2.1.min.js")}}"></script>
 <script src="{{asset("assets/tema_1/frontend/js/plugins.js")}}"></script>
 <script src="{{asset("assets/tema_1/frontend/js/main.js")}}"></script>
-    @stack("customJs")
+@stack("customJs")
 
 </body>
 
