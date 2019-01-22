@@ -337,7 +337,7 @@
             <div class="col-full">
                 <div class="s-footer__copyright">
                     <span>© Copyright Philosophy 2019</span>
-                    <span> Begenç HACİYEW | Berat CEYHAN </span>
+                    <span> Begenç HACİYEW | Berat CEYHAN | {{$settings["isim"]}} </span>
                 </div>
 
                 <div class="go-top">
@@ -370,6 +370,37 @@
 <script src="{{asset("assets/tema_1/frontend/js/jquery-3.2.1.min.js")}}"></script>
 <script src="{{asset("assets/tema_1/frontend/js/plugins.js")}}"></script>
 <script src="{{asset("assets/tema_1/frontend/js/main.js")}}"></script>
+
+            <script>
+                // First circle
+                new Circlebar({
+                    element : "#circle-1",
+                    type : "progress",
+                    maxValue:  "90"
+                });
+
+                // Second circle
+                new Circlebar({
+                    element : "#circle-2",
+                    type : "progress",
+                    maxValue:  "84"
+                });
+
+                // Third circle
+                new Circlebar({
+                    element : "#circle-3",
+                    type : "progress",
+                    maxValue:  "60"
+                });
+
+                // Fourth circle
+                new Circlebar({
+                    element : "#circle-4",
+                    type : "progress",
+                    maxValue:  "74"
+                });
+
+            </script>
 @stack("customJs")
 
 </body>

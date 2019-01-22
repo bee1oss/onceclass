@@ -273,7 +273,7 @@
                         <div class="link-wrap">
                             <p>The Only Resource You Will Need To Start a Blog Using WordPress.</p>
                             <cite>
-                                <a target="_blank" href="https://colorlib.com/">https://colorlib.com</a>
+
                             </cite>
                         </div>
                     </div>
