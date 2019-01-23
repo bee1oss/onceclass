@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <title>@yield("title","Once")</title>
         <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="author" content="{{$settings["author"]}}">
 
         <!-- mobile specific metas
         ================================================== -->
@@ -337,7 +337,7 @@
             <div class="col-full">
                 <div class="s-footer__copyright">
                     <span>© Copyright Philosophy 2019</span>
-                    <span> Begenç HACİYEW | Berat CEYHAN | {{$settings["isim"]}} </span>
+                    <span> Begenç HACİYEW | Berat CEYHAN |  </span>
                 </div>
 
                 <div class="go-top">

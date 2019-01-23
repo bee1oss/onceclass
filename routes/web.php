@@ -15,7 +15,7 @@ Route::get('/home', function(){
     return redirect(route("frontend.home"));
 })->name('home');
 include base_path("routes/frontend/routes.php");
-include base_path("routes/backend/routes.php");
+include base_path("routes/Backend/routes.php");
 
 
 

@@ -3,14 +3,13 @@
 Route::group(["prefix"=>"siteyonetim", "as"=>"backend", "namespace" => "Backend"], function () {
     Route::group(["prefix" => "settings", "as" => ".settings","namespace" => "Settings"], function () {
         Route::get("/", "SettingsController@show")->name(".show");
-
         Route::post("/update","SettingsController@update")->name(".update");
         Route::post("/create","SettingsController@create")->name(".create");
         Route::post("/delete","SettingsController@delete")->name(".delete");
 
     });
 
-    Route::group(["prefix"=>"static","as"=>".static","namespace"=>"Statics"],function ()
+   /* Route::group(["prefix"=>"static","as"=>".static","namespace"=>"Statics"],function ()
     {
         Route::get("/","StaticController@show")->name(".show");
         Route::get("/yeni-sayfa","StaticController@newPageShow")->name(".newPageShow");
@@ -27,6 +26,6 @@ Route::group(["prefix"=>"siteyonetim", "as"=>"backend", "namespace" => "Backend"
 
         });
 
-    });
+    });*/
 
 });

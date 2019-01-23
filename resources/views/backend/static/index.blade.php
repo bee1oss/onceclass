@@ -26,7 +26,7 @@
                                     <div class="input-group-btn">
 
                                         <a href="{{route("backend.static.newPageShow")}}" class="btn btn-primary" id="newSetting">Static Sayfa Ekle</a>
-                                        <a type="button" class="btn btn-primary" id="submitButton" href="{{route("backend.static.module.show")}}">Module ekle</a>
+                                        <a type="button" class="btn btn-primary" id="submitButton" href="{{route("Backend")}}">Module ekle</a>
                                     </div>
                                 </div>
                             </div>
