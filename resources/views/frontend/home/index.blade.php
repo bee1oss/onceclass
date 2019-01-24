@@ -44,17 +44,7 @@
 
                 </article> <!-- end article -->
 
-                <article class="masonry__brick entry format-quote" data-aos="fade-up">
 
-                    <div class="entry__thumb">
-                        <blockquote>
-                            <p>Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.</p>
-
-                            <cite>Dieter Rams</cite>
-                        </blockquote>
-                    </div>
-
-                </article> <!-- end article -->
 
                 <article class="masonry__brick entry format-standard" data-aos="fade-up">
 
@@ -267,18 +257,7 @@
 
                 </article> <!-- end article -->
 
-                <article class="masonry__brick entry format-link" data-aos="fade-up">
 
-                    <div class="entry__thumb">
-                        <div class="link-wrap">
-                            <p>The Only Resource You Will Need To Start a Blog Using WordPress.</p>
-                            <cite>
-
-                            </cite>
-                        </div>
-                    </div>
-
-                </article> <!-- end article -->
 
                 <article class="masonry__brick entry format-standard" data-aos="fade-up">
 

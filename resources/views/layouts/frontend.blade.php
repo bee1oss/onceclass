@@ -6,8 +6,9 @@
         ================================================== -->
         <meta charset="utf-8">
         <title>@yield("title","Once")</title>
-        <meta name="description" content="">
+        <meta name="description" content="{{$settings["description"]}}">
         <meta name="author" content="{{$settings["author"]}}">
+        <meta name="keywords" content="{{$settings["keywords"]}}">
 
         <!-- mobile specific metas
         ================================================== -->
@@ -44,7 +45,7 @@
                 <div class="header__logo">
                     <a class="logo" href="index.html">
                        {{-- <img src="{{asset("assets/tema_1/frontend/images/logo.svg")}}" alt="Homepage">--}}
-                        <h1 style="color:white; font-size:50px">Once Class</h1>
+                        <h1 style="color:white; font-size:50px">{{$settings["logo"]}}</h1>
                     </a>
                 </div> <!-- end header__logo -->
 
@@ -337,7 +338,7 @@
             <div class="col-full">
                 <div class="s-footer__copyright">
                     <span>© Copyright Philosophy 2019</span>
-                    <span> Begenç HACİYEW | Berat CEYHAN |  </span>
+                    <span> {{$settings["site_owner_one"]}} | {{$settings["site_owner_two"]}}  </span>
                 </div>
 
                 <div class="go-top">
